@@ -1,0 +1,20 @@
+{
+  "name": "pokeapi",
+  "version": "1.0.0",
+  "description": "Project for practice tests in API ",
+  "main": "index.js",
+  "scripts": {
+    "test-full": "mocha",
+    "test-endpoint": "mocha test/pokemon_get.js",
+    "test-contract": "mocha test/pokemon_contract.js" 
+  },
+  "author": "Pedro Afonso",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "joi": "^13.1.2",
+    "joi-assert": "0.0.3",
+    "lodash": "^4.17.5",
+    "supertest": "^3.0.0"
+  }
+}
